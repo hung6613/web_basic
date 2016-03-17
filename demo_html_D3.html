@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Demo html day 3</title>
+		<meta name="author" content="Tran Van Thuc">
+		<meta name="description" content="demo html day 3">
+		<meta name="keyword" content="html , demo html 3">
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+		<p>Hom nay em den truong , <span style="font-weight: bold">me dat tay tung buoc</span> , hom nay me len nuong mot minh em den lop..  .</p>
+		<!-- the span dung de dinh dang 1 cau ma` ko anh huong den ca? doan van ban .-->
+
+		<!-- có 3 loại thẻ danh sách : 
+		ol: order list , ul: unorder list, dl: description list -->
+
+
+		<!-- ol có  type : i, I , A ,a , 1 , none (la 1)-->
+		<ol type="none">
+			<li>mục 1</li>
+			<li>mục 2</li>
+			<li>mục 3</li>
+			<li>mục 4</li>
+			<li>mục 5</li>
+		</ol>
+
+		<!-- ul có  type : square, circle, disc, none ( khong hien thi ky hieu) -->
+		<ul type="disc">
+			<li>mục 1</li>
+			<li>mục 1</li>
+			<li>mục 1</li>
+			<li>mục 1</li>
+			<li>mục 1</li>
+		</ul>
+
+
+		<!-- có 1 tiêu đề và một mô tả cho tiêu đề đó -->
+		<dl>
+			<dt>title 1</dt>
+			<dd> tieu de 1</dd>
+
+			<dt>title 2</dt>
+			<dd> tieu de 2</dd>
+
+			<dt>title 3</dt>
+			<dd> tieu de 3</dd>
+
+			<dt>title 4</dt>
+			<dd> tieu de 4</dd>
+		</dl>
+
+		<p><img src="http://tghinhanhdep.com/wp-content/uploads/2013/08/Digital-World-11.jpg" width="300px" height="auto" alt="anh-dep" >
+		</p>
+
+		<p>
+			<img src="images/friends.jpg" alt="friends" width="400px" height="auto">
+		</p>
+
+
+		<p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/8eR8mjsYVGM" frameborder="0" allowfullscreen></iframe>
+		</p>
+
+
+		<p>
+		<video width="500px" height="auto" controls>
+			<source src="http://www.w3schools.com/tags/movie.mp4" type="video/mp4" >
+		</video>
+		</p>
+
+
+		<p>
+			<audio controls="" >
+				<source src="music-audio/music.mp3" type="audio/mp3">
+			</audio>
+		</p>
+
+		<p>
+		<audio controls>
+			<source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mp3">
+		</audio>
+		</p>
+
+
+		<p>
+			Truy cap <a href="http://www.w3schools.com" target="iframe">w3schools.com</a>
+			<!-- target để load link vào 1 frame ta quy định -->
+		</p>
+
+		<!-- iframe tạo 1 khung để hiện thị nhưng trang mình muốn -->
+		<iframe src="demo_html_D2.html" scrolling="auto" width="800px" height="800px" name="iframe"></iframe>
+
+		
+		<br> <hr>
+
+		<!-- table phuc tap -->
+		<form>
+			<table border="1px">
+			<!-- row 1 -->
+				<tr>
+					<td rowspan="2">
+						MASV
+					</td>
+
+					<td colspan="2">
+						HOVATEN - DIACHI
+					</td>
+				</tr>
+
+			<!-- row 2 -->
+				<tr>
+					
+					<td>
+						TRAN VAN THUC
+					</td>
+
+					<td rowspan="3">
+						123 TRUONG TRINH 3 lan 
+					</td>
+				</tr>
+
+			<!-- row 3 -->
+				<tr>
+					<td colspan="2">
+						MASV - hovaten
+					</td>
+
+		
+				</tr>
+
+			<!-- row 4 -->
+				<tr>
+					<td>
+						SV01
+					</td>
+
+					<td>
+						TRAN VAN THUC
+					</td>
+
+					
+				</tr>
+
+			<!-- row 5 -->
+				<tr>
+					<td colspan="3">
+						MASV hovaten dia chi
+					</td>
+
+				</tr>
+
+			<!-- row 6 -->
+				<tr>
+					<td>
+						SV01
+					</td>
+
+					<td colspan="2">
+						TRAN VAN THUC 123 TRUONG TRINH
+					</td>
+				</tr>
+
+			</table>
+		</form>
+		<br>
+
+		<!-- list option -->
+		<form>
+			<select>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+
+			</select>
+
+		</form>
+		<br>
+		<form>
+			<input type="radio" name="gioi-tinh">Nam</input>
+			<input type="radio" name="gioi-tinh">Nu</input>
+		</form>
+		<br>
+
+		<!-- check box -->
+		<form>
+			<input type="checkbox" name="checkbox">dep trai</input>
+			<input type="checkbox" name="checkbox">phong do</input>
+			<input type="checkbox" name="checkbox">lang tu</input>
+			<input type="checkbox" name="checkbox">nha giau</input>
+		</form>
+	</body>
+
+</html>
